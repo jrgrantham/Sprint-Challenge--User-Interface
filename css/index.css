@@ -207,6 +207,14 @@ a {
     padding: 10px 20px;
 }
 
+.button:hover {
+    background-color: palegreen;
+}
+
+.contact-box {
+    display: flex;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
