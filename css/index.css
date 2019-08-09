@@ -66,9 +66,27 @@ p {
     line-height: 1.4;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    padding: 40px 40px 40px 0px;
 }
 
 .top-content {
@@ -144,3 +162,8 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* * div, nav, header, section, footer, a, p {
+	border: 2px solid red;
+	margin: 2px;
+} */
