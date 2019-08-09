@@ -133,6 +133,11 @@ a {
     padding-bottom: 20px;
 }
 
+.text-full-width {
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
